@@ -4,4 +4,7 @@
     <string name="password">Password</string>
     <string name="accedi">Accedi</string>
     <string name="campi_vuoti">Inserisci Nome Utente e Password</string>
+    <string name="durata_avviso">tempo di durata dell\'avviso</string>
+    <string name="breve">Breve</string>
+    <string name="lungo">Lungo</string>
 </resources>

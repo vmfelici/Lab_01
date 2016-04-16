@@ -61,4 +61,36 @@
         android:id="@+id/p_inserito"
         android:textSize="30sp" />
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/durata_avviso"
+        android:id="@+id/durata"
+        android:textColor="#0000ff"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_gravity="bottom" />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/breve"
+        android:id="@+id/radio_breve"
+        android:checked="true"
+        android:layout_gravity="bottom"
+        android:onClick="Durata"/>
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/lungo"
+        android:id="@+id/radio_lungo"
+        android:checked="false"
+        android:layout_gravity="bottom"
+        android:onClick="Durata"/>
+</RadioGroup>
 </LinearLayout>
